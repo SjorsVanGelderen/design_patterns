@@ -1,13 +1,23 @@
 # Design patterns applied to a browser-based video game
 
-This is a demonstration of how design patterns may be implemented in practice
+This is a demonstration of how design patterns may be implemented in practice.
+Note that the code could make much more efficient use of each pattern,
+but that mixing patterns was deliberately avoided to provide better studying material.
 
-The patterns include:
+## Patterns
+
+### Behavioural
+* Option and Visitor
 * Strategy
-* Factory
-* Visitor
-* Option
+* Iterator
+
+### Structural
 * Adapter
+* Decorator
+
+### Creational
+* Factory method
+* Singleton
 
 ## Build
 This project relies on the following technologies:

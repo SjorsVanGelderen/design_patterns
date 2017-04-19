@@ -36,4 +36,8 @@ export class Vector2 {
         this.x /= mag
         this.y /= mag
     }
+
+    public dist(vector: Vector2): number {
+        return new Vector2(vector.x - this.x, vector.y - this.y).mag()
+    }
 }

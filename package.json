@@ -1,0 +1,16 @@
+{
+  "name": "design_patterns",
+  "version": "1.0.0",
+  "description": "Design patterns implemented in a game",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sjors van Gelderen",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
